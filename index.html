@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html>
-<<head>
-  <title>Hello Universe</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Flat Search Engine">
+    <meta name="keywords" content="flat, share, living, rental, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZooplaPlus | Demo</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
 </head>
 
 <body>
-  <h1>Welcome to my site!</h1>
-  <br>
-  <img src="duck.jpg", height="150">
-  <br>
-  <p>
-  I am currently learning to code with Code First Girls. Going over everything from how the
-  internet works, to creating websites and version control with git. A lot to cover in only 8 weeks!
-  Everyone should learn to code, here are some pretty good reasons why...
-  </p>
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="./index.html"><img src="img/zoopla_plus_logo.png" alt=""></a>
+                </div>
+                <nav class="main-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./about-us.html">About</a></li>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
 
-  <p>HTML is cool</p>
-  <p>CSS is cooler</p>
-  <p>JS is the best</p>
-  <br>
+    <!-- Hero Area Section Begin -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h2>Living Together Should Be Easy</h1>
+        </div>
 
-  <h2>What do you need to create a website?</h2>
+        <!-- Search Filter Section Begin -->
+        <div class="search-form">
+                <table id="form" class=" table order-list">
+                    <thead>
+                        <tr>
+                            <td>Enter Each Tenant's Daytime Location</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-sm-8">
+                                <input type="text" name="name" class="form-control" />
+                            </td>
+                            
+                            <td class="col-sm-2"><a class="delete"></a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" style="text-align: left;">
+                                <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add A Tenant" />
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        <!-- Search Filter Section End -->
 
-  <p>Not much!<p>
-  <p>  A computer (always a good start)</p>
-  <p>A text editor (I am using atom)</p>
-  <p>A web browser (I am using chrome)</p>
-  <p>Some HTML, CSS and JS files</p>
-  <br>
-  <p>Follow my progress on <a href="https://github.com/alinnawen/coding_course">github</a><p>
+    </div>
+    <!-- Hero Area Section End -->
 
 </body>
 
